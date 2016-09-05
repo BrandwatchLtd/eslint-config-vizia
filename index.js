@@ -8,7 +8,8 @@ module.exports = {
         Promise: true,
         Map: true,
         Set: true,
-        WeakMap: true
+        WeakMap: true,
+        WeakSet: true
     },
     rules: {
         // possible errors
