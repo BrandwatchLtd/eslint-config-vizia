@@ -1,4 +1,5 @@
 language: node_js
-node_js:
-    - "4"
-    - "6"
+script:
+  - npm run test
+before_install:
+  - echo -e "//npme.brandwatch.com:8080/:_authToken=\${NPM_TOKEN}\n@vizia:registry=https://npme.brandwatch.com:8080" > .npmrc

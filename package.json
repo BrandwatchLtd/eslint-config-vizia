@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vizia",
+  "name": "@vizia/eslint-config",
   "version": "1.6.0",
   "description": "The common vizia linter configs.",
   "main": "index.js",
@@ -7,17 +7,19 @@
     "test": "eslint ."
   },
   "repository": "github:vizia/eslint-config-vizia",
+  "publishConfig": {
+    "registry": "https://npme.brandwatch.com:8080"
+  },
   "keywords": [
     "lint",
     "vizia"
   ],
-  "author": "Mark Stanley Everitt",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vizia/eslint-config-vizia/issues"
   },
   "homepage": "https://github.com/vizia/eslint-config-vizia#readme",
   "devDependencies": {
-    "eslint": "3.19.0"
+    "eslint": "4.16.0"
   }
 }

@@ -1,11 +1,11 @@
-# eslint-config-vizia
+# Vizia ESLint Config
 
-Common ESLint [shareable config][1] files for vizia.
+Common ESLint [shareable config][1] files for Vizia.
 
 Install into your project:
 
 ```
-npm install --save eslint eslint-config-vizia
+npm install --save eslint @vizia/eslint-config
 ```
 
 # Example uses:
