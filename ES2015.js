@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-    extends: 'eslint-config-vizia',
+    extends: './index.js',
     env: {
         es6: true
     },
