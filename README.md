@@ -19,7 +19,7 @@ Make a `.eslintrc.json` config file with the following in:
     "env": {
         "browser": true
     }
-    "extends": "vizia"
+    "extends": "@vizia/eslint-config"
 }
 ```
 
@@ -39,7 +39,7 @@ provided for ES2015 code:
     "env": {
         "node": true
     }
-    "extends": "vizia/ES2015"
+    "extends": "@vizia/eslint-config/ES2015"
 }
 ```
 
