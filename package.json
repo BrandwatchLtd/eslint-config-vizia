@@ -8,7 +8,7 @@
   },
   "repository": "github:vizia/eslint-config-vizia",
   "publishConfig": {
-    "registry": "https://npme.brandwatch.com:8080"
+    "registry": "https://registry.brandwatch.npme.io/"
   },
   "keywords": [
     "lint",
